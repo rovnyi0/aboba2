@@ -1,0 +1,45 @@
+.div3 {
+	background: white;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+h2 {
+	color: white;
+}
+p {
+	color: white;
+}
+.block {
+	width: 150px;
+	height: 230px;
+	background: orange;
+	transition: 0.5s;
+	animation: aboba 2s ease infinite;
+}
+.block img {
+	width: 150px;
+	height: 120px;
+}
+.block:hover {
+	background: white;
+	transform: scale(1.1);
+	transition: 1s;
+}
+@keyframes aboba {
+	0% {
+		background: red;
+	}
+	25% {
+		background: orange;
+	}
+	50% {
+		background: green;
+	}
+	100% {
+		background: blue;
+	}
+}
